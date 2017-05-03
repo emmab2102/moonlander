@@ -236,9 +236,14 @@ public class PlayerRocket {
 
 		switch (soundRequired) {
 		case SOUND_CRASH:
-			fn = "./src/moon_lander/resources/sounds/drawing.wav";
+			fn = "./src/moon_lander/resources/sounds/crash.wav";
 			break;
-
+		case SOUND_CROWD:
+			fn = "./src/moon_lander/resources/sounds/yay.wav";
+			break;
+		case SOUND_BURN:
+			fn = "./src/moon_lander/resources/sounds/flamestrike.wav";
+			break;
 		default:
 			break;
 
