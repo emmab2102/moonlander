@@ -114,17 +114,35 @@ public class PlayerRocket {
     }
     
     
-    private void Initialize()
+    public void Level1()
     {
-        random = new Random();
+        Initialize();
+        
+        
+    }
+    public void Level2()
+    {
+    	random = new Random();
         
         ResetPlayer();
         
-        speedAccelerating = 2;
-        speedStopping = 1;
+        speedAccelerating = 4;
+        speedStopping = 2;
         
-        topLandingSpeed = 5;
+        topLandingSpeed = 7;
+        
+        
     }
+    public void Level3()
+    {
+    	random = new Random();
+        
+        ResetPlayer();
+        
+        speedAccelerating = 6;
+        speedStopping = 3;
+        
+        topLandingSpeed = 9;
     
     private void LoadContent()
     {
